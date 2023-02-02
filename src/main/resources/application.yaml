@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    azure:
+      cosmos:
+        database: azure-bz-cosmos-db-d
+        enabled: true
+        endpoint: https://azure-bz-cosmos-db-d.documents.azure.com:443/
+        credential:
+          managed-identity-enabled: false
